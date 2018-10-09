@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_recents"
+        android:enabled="true"
+        android:icon="@drawable/recents_button_white"
+        android:title="@string/recents"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:enabled="true"
+        android:icon="@drawable/favorites_button_white"
+        android:title="@string/favorites"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_all"
+        android:enabled="true"
+        android:icon="@drawable/all_button_white"
+        android:title="@string/all"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+
